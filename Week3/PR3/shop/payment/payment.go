@@ -1,7 +1,7 @@
 package payment
 
 import "fmt"
-
+//интерфейс
 type Payment interface {
 	ProcessPayment(amount float64) error
 }
@@ -12,7 +12,7 @@ func (c CreditCardPayment) ProcessPayment(amount float64) error {
 	fmt.Println("Оплата картой:", amount)
 	return nil
 }
-
+//O open closed жаңа қосу
 type PayPalPayment struct{}
 
 func (p PayPalPayment) ProcessPayment(amount float64) error {

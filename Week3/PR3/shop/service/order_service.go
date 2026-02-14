@@ -6,7 +6,7 @@ import (
 	"shop/order"
 	"shop/payment"
 )
-
+//D инт
 type OrderService struct {
 	payment      payment.Payment
 	delivery     delivery.Delivery
