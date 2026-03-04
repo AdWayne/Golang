@@ -22,7 +22,7 @@ func main() {
 	}
 
 	price, _ := ctx.Calculate(req)
-	fmt.Println("Price:", price)
+	fmt.Println("Plane (пример) Price:", price)
 
 	// ---------- OBSERVER ----------
 	fmt.Println("\n=== Stock Exchange ===")
