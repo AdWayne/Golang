@@ -12,7 +12,7 @@ func (c *Contractor) Show(indent string) {
 }
 
 func (c *Contractor) GetSalary() float64 {
-	return 0 // не входит в бюджет
+	return 0
 }
 
 func (c *Contractor) GetEmployeeCount() int {
